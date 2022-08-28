@@ -1,0 +1,96 @@
+{
+  "copyright": "Copyright 2022 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "totalItems": 1,
+  "totalEvents": 0,
+  "totalGames": 1,
+  "totalGamesInProgress": 0,
+  "dates": [
+    {
+      "date": "2021-11-02",
+      "totalItems": 1,
+      "totalEvents": 0,
+      "totalGames": 1,
+      "totalGamesInProgress": 0,
+      "games": [
+        {
+          "gamePk": 660906,
+          "link": "/api/v1.1/game/660906/feed/live",
+          "gameType": "W",
+          "season": "2021",
+          "gameDate": "2021-11-03T00:09:00Z",
+          "officialDate": "2021-11-02",
+          "status": {
+            "abstractGameState": "Final",
+            "codedGameState": "F",
+            "detailedState": "Final",
+            "statusCode": "F",
+            "startTimeTBD": false,
+            "abstractGameCode": "F"
+          },
+          "teams": {
+            "away": {
+              "leagueRecord": {
+                "wins": 4,
+                "losses": 2,
+                "pct": ".667"
+              },
+              "score": 7,
+              "team": {
+                "id": 144,
+                "name": "Atlanta Braves",
+                "link": "/api/v1/teams/144"
+              },
+              "isWinner": true,
+              "splitSquad": false,
+              "seriesNumber": 1
+            },
+            "home": {
+              "leagueRecord": {
+                "wins": 2,
+                "losses": 4,
+                "pct": ".333"
+              },
+              "score": 0,
+              "team": {
+                "id": 117,
+                "name": "Houston Astros",
+                "link": "/api/v1/teams/117"
+              },
+              "isWinner": false,
+              "splitSquad": false,
+              "seriesNumber": 1
+            }
+          },
+          "venue": {
+            "id": 2392,
+            "name": "Minute Maid Park",
+            "link": "/api/v1/venues/2392"
+          },
+          "content": {
+            "link": "/api/v1/game/660906/content"
+          },
+          "isTie": false,
+          "gameNumber": 1,
+          "publicFacing": true,
+          "doubleHeader": "N",
+          "gamedayType": "P",
+          "tiebreaker": "N",
+          "calendarEventID": "14-660906-2021-11-02",
+          "seasonDisplay": "2021",
+          "dayNight": "night",
+          "description": "World Series Game 6",
+          "scheduledInnings": 9,
+          "reverseHomeAwayStatus": false,
+          "inningBreakLength": 120,
+          "gamesInSeries": 7,
+          "seriesGameNumber": 6,
+          "seriesDescription": "World Series",
+          "recordSource": "S",
+          "ifNecessary": "N",
+          "ifNecessaryDescription": "Normal Game"
+        }
+      ],
+      "events": []
+    }
+  ]
+}

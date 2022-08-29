@@ -1,7 +1,7 @@
 # MLB Take-Home Assignment
 
 ## Description
-This is a basic implementation of a web server for sorting a Major League Baseball schedule based on a user's favorite team. It takes as input the date (in the form `2006-01-02`), the team ID (e.g. `104`) and returns the schedule of games for that day, with the specified team's games to the top of the list. If the specified team has a doubleheader, both games will be pushed to the top. If either of the games is in progress, that game will be at the top of the list, otherwise, they will be in chronological order.
+This is a basic implementation of a web server for sorting a Major League Baseball schedule based on a user's favorite team. It takes as input the date (in the form `2006-01-02`), the team ID (e.g. `104`) and returns the schedule of games for that day, with the specified team's games at the top of the list. If the specified team has a doubleheader, both games will be pushed to the top. If either of the games is in progress, that game will be at the top of the list, otherwise, they will be in chronological order.
 
 This was implemented using only the Golang standard library. Of course, there are many ways to implement this, but I felt that using the Golang standard library would demonstrate how I would and implement code in general. If I had not restricted myself to using the standard library, I would have utilized Ginkgo and Gomega for testing and would have used a tool for specifying the API interfaces (such as swagger).
 
